@@ -1,5 +1,3 @@
-#ifndef MONTY_H
-#define MONTY_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -7,6 +5,8 @@
 #include <fcntl.h>
 #include <string.h>
 #include <ctype.h>
+#ifndef MONTY_H
+#define MONTY_H
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
